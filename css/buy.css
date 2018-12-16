@@ -1,0 +1,793 @@
+/* 此文件是购买页面的样式文件 */
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+/* 让头部小栏固定定位在顶部 */
+
+
+/* 头部 */
+
+.cbb_nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    background-color: #333;
+}
+
+.cbb_topbar_nav a,
+.cbb_topbar_info a {
+    display: inline-block;
+    /* line-height: 40px; */
+    color: #b0b0b0;
+}
+
+.cbb_topbar_nav a:hover,
+.cbb_topbar_info a:hover {
+    color: #fff;
+}
+
+.cbb_topbar_nav .cbb_sep,
+.cbb_topbar_info .cbb_sep {
+    margin: 0.5em;
+    color: #424242;
+}
+
+.cbb_topbar_info {
+    margin-right: 20px;
+}
+
+.cbb_topbar_cart {
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    text-align: center;
+    cursor: pointer;
+    color: #b0b0b0;
+}
+
+.cbb_topbar_cart:hover {
+    background-color: #fff;
+    color: #ff6700;
+}
+
+.cbb_icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    margin: 0px 5px;
+    vertical-align: top;
+}
+
+
+/* 头部 */
+
+
+/* logo 那一部分开始 */
+
+.cbb_site_header {
+    background-color: #fff;
+}
+
+.cbb_logo {
+    position: relative;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+    margin-top: 22px;
+}
+
+.cbb_logo .cbb_logo_img {
+    position: absolute;
+    /* display: block; */
+    top: 0px;
+    right: 0px;
+    width: 55px;
+    height: 55px;
+    font-size: 0px;
+    /* margin-top: 22px; */
+    background-image: url(../images/cbb_logo.png);
+}
+
+.cbb_mi_home {
+    position: absolute;
+    /* display: none; */
+    left: -55px;
+    top: 0px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/cbb_logo_home.png);
+}
+
+.cbb_nav_list {
+    margin-left: 20px;
+}
+
+.cbb_nav_list li {
+    float: left;
+    height: 88px;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 88px;
+}
+
+.cbb_nav_list li a {
+    color: #000;
+    font-size: 16px;
+}
+
+.cbb_nav_list li a:hover {
+    color: #ff6700;
+}
+
+
+/* logo 那一部分结束 */
+
+
+/* 笔记本服务部分 */
+
+.cbb_biji {
+    overflow: hidden;
+    z-index: 999;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 5px 10px #ddd;
+}
+
+.cbb_biji a {
+    color: #000;
+}
+
+.cbb_biji a:hover {
+    color: #ff6700;
+}
+
+.cbb_biji span {
+    color: #e0e0e0;
+    margin: 0 5px;
+}
+
+.cbb_biji_left .eight {
+    font-size: 18px;
+    color: #000;
+}
+
+.cbb_biji_left .two {
+    font-size: 12px;
+    color: #000;
+}
+
+.cbb_biji_left a {
+    font-size: 12px;
+}
+
+
+/* 笔记本服务部分 */
+
+
+/* 请求登陆提示 */
+
+.cbb_requestLogin {
+    width: 100%;
+    /* text-align: center; */
+    line-height: 48px;
+    color: #000;
+    font-size: 14px;
+}
+
+.cbb_margin_auto {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.cbb_login {
+    color: #ff6700;
+    margin-left: 25px;
+}
+
+.cbb_error {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.cbb_error:hover {
+    color: #b0b0b0;
+}
+
+
+/* 请求登陆提示 */
+
+
+/* 产品详情 */
+
+.cbb_choose_main {
+    background-color: #fff;
+    /* background-color: cyan; */
+}
+
+.cbb_choose_top {
+    border-bottom: 1px solid #ccc;
+}
+
+.cbb_chose_address {
+    width: 514px;
+    height: 42px;
+    margin: 40px 0;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.silver,
+.golden {
+    position: absolute;
+    top: 14px;
+    left: 100px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: silver;
+}
+
+.golden {
+    background-color: #EBDBAE;
+}
+
+.cbb_pro_list {
+    width: 546px;
+    height: 80px;
+    padding: 30px;
+    background-color: #F9F9FA;
+}
+
+
+/* 产品详情 */
+
+.cbb_choose_main_right {
+    width: 606px;
+}
+
+
+/* 价钱部分 */
+
+.cbb_choose_top h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+    margin-top: 30px;
+}
+
+.cbb_choose_top p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #b0b0b0;
+}
+
+.cbb_choose_top span {
+    font-size: 18px;
+    color: #ff6700;
+    line-height: 50px;
+}
+
+
+/* 价钱部分 */
+
+
+/* 地址部分 */
+
+.cbb_chose_address {
+    padding: 30px 50px 40px;
+}
+
+.cbb_address,
+.cbb_none {
+    color: #000;
+    font-size: 14px;
+}
+
+.cbb_address span {
+    margin-right: 14px;
+}
+
+.cbb_orange {
+    color: #ff6700;
+}
+
+
+/* 地址部分 */
+
+
+/* 选择版本部分 */
+
+.cbb_choose_main_top,
+.cbb_choose_main_color {
+    color: #000;
+    font-size: 18px;
+}
+
+.cbb_choose_main_top span {
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+
+/* 选择版本部分 */
+
+
+/* 选择版本的按钮 */
+
+.cbb_choose_main_btn,
+.cbb_choose_main_color {
+    margin-top: 10px;
+}
+
+.cbb_choose_main_btn ul,
+.cbb_choose_main_color ul {
+    width: 700px;
+}
+
+.cbb_choose_main_btn li,
+.cbb_choose_main_color li {
+    position: relative;
+    width: 298px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    float: left;
+    border: 1px solid #b0b0b0;
+    margin: 10px 10px 0 0;
+}
+
+.cbb_choose_main_color li {
+    text-align: center;
+    line-height: 42px;
+}
+
+
+/* 当选中的时候，边框和字体变色 */
+
+li.cbb_current {
+    border-color: #ff6700;
+}
+
+li.cbb_current a {
+    color: #ff6700;
+}
+
+.cbb_choose_main_btn a {
+    color: #000;
+    font-size: 16px;
+}
+
+.cbb_choose_main_btn a span {
+    color: #757575;
+    margin-left: 15px;
+}
+
+.cbb_pro_list {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.cbb_totle {
+    font-size: 24px;
+    color: #ff6700;
+    margin-top: 30px;
+}
+
+
+/* 加入购物车按钮 */
+
+.cbb_pro_jiagou {
+    margin-top: 30px;
+}
+
+.cbb_jiagou a {
+    display: block;
+    width: 298px;
+    height: 52px;
+    border: 1px solid #ff6700;
+    color: #b0b0b0;
+    text-align: center;
+    line-height: 52px;
+    font-size: 16px;
+}
+
+.cbb_jiagou a:hover {
+    color: #fff;
+    background-color: #ff6700;
+}
+
+.cbb_love a {
+    display: block;
+    width: 140px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b0b0b0;
+    margin-left: 15px;
+}
+
+.cbb_love a:hover {
+    background-color: #555;
+}
+
+.cbb_pro_comm {
+    line-height: 75px;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+.cbb_pro_comm span {
+    margin-left: 10px;
+}
+
+
+/* 选择版本的按钮 */
+
+
+/* 细节展示 */
+
+.cbb_bgimg_01 h3,
+.cbb_bgimg_02 h3,
+.cbb_bgimg_03 h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0;
+    color: #000;
+}
+
+
+/* 详情展示 */
+
+.cbb_bgimg_03 img {
+    width: 100%;
+}
+
+
+/* 详情展示 */
+
+
+/* 包装清单 */
+
+
+/* 外面的大盒子 */
+
+.cbb_bzqc {
+    position: relative;
+    width: 1226px;
+    height: 923px;
+    background-color: #fff;
+}
+
+.cbb_xmcn {
+    position: relative;
+    width: 1224px;
+    height: 375px;
+    background-color: #fff;
+}
+
+.cbb_xmcn_top {
+    height: 267px;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+
+/* 里面的小盒子 */
+
+.cbb_xmcn_one,
+.cbb_xmcn_two,
+.cbb_xmcn_three,
+.cbb_bzqc_one,
+.cbb_bzqc_two,
+.cbb_bzqc_three {
+    position: absolute;
+    text-align: center;
+}
+
+
+/* 圈圈里面的数字 */
+
+.cbb_xmcn_one_num,
+.cbb_xmcn_two_num {
+    position: absolute;
+    left: 43%;
+    top: 14%;
+    font-size: 40px;
+}
+
+.cbb_xmcn_one_num {
+    color: #6FD156;
+}
+
+.cbb_xmcn_two_num {
+    left: 36%;
+    color: #F28F4B;
+}
+
+.cbb_bzqc_one {
+    left: 155px;
+    top: 95px;
+    width: 380px;
+    height: 700px;
+}
+
+.cbb_bzqc_two {
+    top: 145px;
+    right: 170px;
+    width: 420px;
+    height: 250px;
+}
+
+.cbb_bzqc_three {
+    bottom: 120px;
+    right: 200px;
+    width: 340px;
+    height: 340px;
+}
+
+.cbb_xmcn_one {
+    left: 225px;
+    top: 60px;
+    width: 150px;
+    height: 150px;
+}
+
+.cbb_xmcn_two {
+    left: 525px;
+    top: 60px;
+    width: 170px;
+    height: 150px;
+}
+
+.cbb_xmcn_three {
+    right: 255px;
+    top: 60px;
+    width: 105px;
+    height: 150px;
+}
+
+
+/* 小盒子里面的段落 */
+
+.cbb_bzqc_one p,
+.cbb_bzqc_two p,
+.cbb_bzqc_three p {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #000;
+}
+
+.cbb_xmcn_one p,
+.cbb_xmcn_two p,
+.cbb_xmcn_three p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000;
+}
+
+.cbb_xmcn_bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #939393;
+}
+
+
+/* 包装清单 */
+
+
+/* 轮播图 */
+
+.cbb_choose_main_left {
+    width: 606px;
+    height: 600px;
+    /* background-color: cyan; */
+    margin-top: 100px;
+}
+
+
+/* 轮播图 */
+
+.cbb_main {
+    position: relative;
+    width: 606px;
+    height: 606px;
+    /* background-color: cyan; */
+}
+
+
+/* .cbb_main_min { */
+
+
+/* width: 560px; */
+
+
+/* background-color: red; */
+
+
+/* } */
+
+
+/* .cbb_main_img img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+} */
+
+
+/* 上一张 下一张 */
+
+
+/* .cbb_main_next_div .cbb_main_next_left,
+.cbb_main_next_div .cbb_main_next_right {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 65px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+    color: #dadada;
+}
+
+.cbb_main_next_div .cbb_main_next_left:hover,
+.cbb_main_next_div .cbb_main_next_right:hover {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.cbb_main_next_div .cbb_main_next_left {
+    left: 0px;
+}
+
+.cbb_main_next_div .cbb_main_next_right {
+    right: 0px;
+} */
+
+
+/* 下面的轮播按钮 */
+
+
+/* 外面的大盒子 */
+
+
+/* 
+.cbb_main_point {
+    position: absolute;
+    bottom: 25px;
+    width: 606px;
+    height: 18px; */
+
+
+/* text-align: center;
+    line-height: 18px; */
+
+
+/* background-color: pink; */
+
+
+/* } */
+
+
+/* 
+.cbb_point_div {
+    margin-left: 110px;
+    margin-top: 8px;
+} */
+
+
+/* .cbb_point a {
+    float: left;
+    width: 50px;
+    height: 2px;
+    margin: 0 10px; */
+
+
+/* background-color: #ccc; */
+
+
+/* background-color: #ccc;
+} */
+
+
+/* .cbb_point a:hover {
+    background-color: #a3a3a3;
+} */
+
+
+/* 网上下载的轮播图的css */
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 560px;
+    height: 606px;
+    overflow: hidden;
+}
+
+.list img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 560px;
+    height: 560px;
+    opacity: 0;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.list img:first-child {
+    opacity: 1;
+    z-index: 2;
+}
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -90px;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.buttons span {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #aaa;
+    border: 1px solid #fff;
+}
+
+.buttons span:last-child {
+    margin-right: 0;
+}
+
+.buttons .on {
+    background: #000;
+}
+
+.arrow {
+    display: none;
+    position: absolute;
+    top: 230px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+}
+
+.container:hover .arrow {
+    display: block;
+}
+
+#pre {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
